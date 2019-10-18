@@ -1,0 +1,169 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab1}Example of Data Formatted for Tidy Data}
+\centering
+\begin{tabular}{l>{\raggedright\arraybackslash}p{30em}}
+\toprule
+Cue & Participant Answer\\
+\midrule
+airplane & you fly in it  its big  it is fast  they are expensive  they are at an airport  you have to be trained to fly it  there are lots of seats  they get very high up\\
+airplane & wings engine pilot cockpit tail\\
+airplane & wings  it flys  modern technology  has passengers  requires a pilot  can be dangerous  runs on gas  used for travel\\
+airplane & wings  flys  pilot  cockpit  uses gas  faster travel\\
+airplane & wings  engines  passengers  pilot(s)  vary in size and color\\
+\addlinespace
+airplane & wings  body  flies  travel\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab2}Lemma and Part of Speech (POS) Information from TreeTagger}
+\centering
+\begin{tabular}{llll}
+\toprule
+Cue & Feature & POS & Lemma\\
+\midrule
+airplane & is & verb & be\\
+airplane & fast & adverb & fast\\
+airplane & they & pronoun & they\\
+airplane & are & verb & be\\
+airplane & expensive & adjective & expensive\\
+\addlinespace
+airplane & they & pronoun & they\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab4}Multi-Word Sequence Examples for Zebra}
+\centering
+\begin{tabular}{llr}
+\toprule
+Cue & Combined Lemmas & N\\
+\midrule
+zebra & horse & 27\\
+zebra & horse like & 1\\
+zebra & look similar horse & 1\\
+zebra & relate horse & 2\\
+zebra & resemble small horse & 1\\
+\addlinespace
+zebra & stripe similar horse & 1\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab5}Bag of Words Examples for Zebra}
+\centering
+\begin{tabular}{llr}
+\toprule
+Cue & Lemma & N\\
+\midrule
+zebra & stripe & 64\\
+zebra & black & 63\\
+zebra & white & 61\\
+zebra & animal & 54\\
+zebra & horse & 32\\
+\addlinespace
+zebra & africa & 28\\
+zebra & zoo & 22\\
+zebra & leg & 20\\
+zebra & life & 20\\
+zebra & eat & 17\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab6}Descriptive Statistics for Multi-word Sequences and Bag-of-words Approaches}
+\centering
+\begin{tabular}{lllllll}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{3}{c}{Multi-Word Sequences} & \multicolumn{3}{c}{Bag of Words} \\
+\cmidrule(l{3pt}r{3pt}){2-4} \cmidrule(l{3pt}r{3pt}){5-7}
+Statistics & $Mean$ & $SD$ & $r$ & $Mean$ & $SD$ & $r$\\
+\midrule
+Number of Cue-Features & 192.27 & 99.14 & .78 & 173.44 & 77.21 & .67\\
+Frequency of Idiosyncratic Response & 183.29 & 97.38 & .80 & 160.57 & 74.26 & .69\\
+Frequency of Cue-Feature Response & 2.09 & 3.39 & .65 & 2.70 & 4.76 & .83\\
+Percent of Cue-Feature Response & 3.41 & 5.10 & -.64 & 4.30 & 4.76 & -.62\\
+\bottomrule
+\multicolumn{7}{l}{\textsuperscript{} $Note$. The correlation (r) represents the relation between frequency of response and sample}\\
+\multicolumn{7}{l}{size.}\\
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab7}Cosine Overlap with Previous Data Collection}
+\centering
+\begin{tabular}{lllll}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{With Stopwords} & \multicolumn{2}{c}{No Stopwords} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5}
+Statistic & Original & Translated & Original & Translated\\
+\midrule
+B Mean & .55 & .58 & .69 & .74\\
+B SD & .16 & .16 & .16 & .15\\
+M Mean & .33 & .50 & .39 & .59\\
+M SD & .15 & .13 & .18 & .13\\
+V Mean & .50 & .50 & .60 & .59\\
+\addlinespace
+V SD & .18 & .18 & .18 & .19\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{} $Note$. Translated values are hand coded lemmatization from}\\
+\multicolumn{5}{l}{Buchanan et al. (2019). B: Buchanan et al. (2019), M: McRae et}\\
+\multicolumn{5}{l}{al. (2005), V: Vinson \& Vigliocco (2008). $N$ values are 226,}\\
+\multicolumn{5}{l}{61, and 68 respectively.}\\
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+
+\caption{\label{tab:tab8}Top Ten Ontology Labels}
+\centering
+\begin{tabular}{llll}
+\toprule
+Parts & Function & Location & Category\\
+\midrule
+brush use & brush hair & scissors cut & flute instrument\\
+lawn grass & river water & snow cold & snow white\\
+snail shell & branch tree & farm land & elephant animal\\
+river stream & chair sit & cabin wood & cabbage green\\
+radio music & leaf plant & rocket space & dagger knife\\
+\addlinespace
+elephant trunk & kitchen food & breakfast day & apple fruit\\
+zebra stripe & hammer nail & stone rock & hammer tool\\
+river flow & garden flower & bacon pig & lion king\\
+door open & oven cook & shoe foot & cabbage vegetable\\
+dragon fire & leaf green & toy play & furniture table\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 

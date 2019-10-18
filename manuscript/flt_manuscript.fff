@@ -1,0 +1,16 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=5.24in]{flow_chart} \caption{Flow chart illustrating how feature lists are recoded to obtain a standard feature format.}\label{fig:flowchart}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{flt_manuscript_files/figure-latex/correlation-fig-1.pdf}
+\caption{\label{fig:correlation-fig}Correlation of sample size with the average cue-feature frequency (left) and percent (right) of response for each cue for both processing approaches. Each point represents a cue word, and the size of the point indicates the variability of the average frequency (left) or percent (right).}
+\end{figure*}
+\efloatseparator
+ 
